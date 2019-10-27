@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<link rel = "stylesheet" href = "Psychology Quiz.css" />
+</head>
+<body>
+<div id = "QuizBorder">
+<h1>Psychology Quiz</h1>
+
+<form autocomplete = "off">
+
+<h3>1. What is spoken or physical behaviour that is threatening or involves harm to someone?</h3>
+<input type="text" id = "Answer1" ><br>
+<p id = "AnswerReveal1"></p><br>
+
+<h3>2. What is the trait measuring how impulsive and aggressive an individual is?</h3>
+
+<input type="checkbox" id = "AnswerA2" value = "Psychoticism" onclick="A2();"/> <b>Psychoticism</b><br>
+<input type="checkbox" id = "AnswerB2" value = "Neuroticism" onclick="B2();"/> <b>Neuroticism</b><br>
+<input type="checkbox" id = "AnswerC2" value = "Extraversion" onclick="C2();"/> <b>Extraversion</b><br>
+<p id = "AnswerReveal2"></p><br>
+
+<h3>3. What is the process of reintegrating a person a convicted person into society with the aim that they will no longer commit crimes?</h3>
+<input type="text" id = "Answer3" ><br>
+<p id = "AnswerReveal3"></p><br>
+
+<h3>4. What is the name given to actions that go against accepted standards or laws?</h3>
+
+<input type="checkbox" id = "AnswerA4" value = "Extraversion" onclick="A4();"/> <b>Extraversion</b><br>
+<input type="checkbox" id = "AnswerB4" value = "Delinquency" onclick="B4();"/> <b>Delinquency</b><br>
+<input type="checkbox" id = "AnswerC4" value = "Psychoticism" onclick="C4();"/> <b>Psychoticism</b><br>
+<p id = "AnswerReveal4"></p><br>
+
+<h3>5. What is the name of something that reduces the likelihood of a crime being commited?</h3>
+<input type="text" id = "Answer5" ><br>
+<p id = "AnswerReveal5"></p><br>
+
+<h3></h3>
+
+<b><p id = "Score" ></p></b>
+<input type="button" value="Submit" id = "Submit" onclick="Check(5);"><br><br><br>
+<input type="button" value="Try Again" id = "Retry" style = "visibility: hidden;" onclick = "window.location.reload();">
+</form>
+
+<b><p id = "Score" ></p></b>
+</div>
+<script src = "Psychology Quiz.js"></script>
+</body>
+</html>

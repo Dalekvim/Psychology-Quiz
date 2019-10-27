@@ -1,0 +1,66 @@
+body {
+	background-color: orange;
+}
+h1 {
+	color: purple;
+	text-align: center;
+}
+h3 {
+	color: royalblue;
+}
+b {
+	color: white;
+}
+p {
+	color: green;
+}
+#Score {
+	color: green;
+	position: absolute;
+}
+form {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+input[type = "text"] {
+	color: blue;
+	background-color: lightGreen;
+}
+#Submit, #Retry {
+	position: absolute;
+	padding: 1%;
+    margin-top: 2%;
+	margin-bottom: 4%;
+    border-radius: 10%;
+    background-color: royalblue;
+    color: deepSkyBlue;
+    border: springGreen;
+}
+#QuizBorder {
+	width: 60%;
+	height: 97%;
+	position: fixed;
+	left: 20%;
+	background-color: springGreen;
+	overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: orange; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: deepSkyBlue; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: green; 
+}
